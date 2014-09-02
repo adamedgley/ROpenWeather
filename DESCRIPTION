@@ -1,0 +1,21 @@
+Package: ROpenWeather
+Type: Package
+Title: Package for downloading weather information from
+    OpenWeatherMap.org
+Version: 1.0
+Date: 2013-06-29
+Author: Adam Edgley
+Maintainer: Adam Edgley<adam.edgley@gmail.com>
+Description: Queries the OpenWeatherMap.org API for current and historical
+    weather information. This package uses S4 classes, and provides plotting
+    objects with ggplot
+License: GPL-3
+Depends:
+    RJSONIO,
+    ggplot2,
+    methods
+Imports:
+    stats,
+    utils,
+    graphics
+Packaged: 2013-07-11 12:21:09 UTC; adam
